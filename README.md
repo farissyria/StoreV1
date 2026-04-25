@@ -64,7 +64,32 @@ Dependencies point inward. The inner layers (Domain) have no dependencies on out
 - [.NET Core SDK 9.0 ](https://dotnet.microsoft.com/download)
 - [SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) (Express/Developer)
 - [Git](https://git-scm.com/)
+## 📦 NuGet Packages Used
 
+### Core & Database
+| Package | Version | Description |
+|---------|---------|-------------|
+| [Microsoft.EntityFrameworkCore](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore) | 9.0.0 | Core Entity Framework library |
+| [Microsoft.EntityFrameworkCore.SqlServer](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.SqlServer) | 9.0.0 | SQL Server provider for EF Core |
+| [Microsoft.EntityFrameworkCore.Design](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.Design) | 9.0.0 | Design-time tools for EF Core migrations |
+| [Microsoft.EntityFrameworkCore.Tools](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.Tools) | 9.0.0 | EF Core PowerShell commands |
+
+### Authentication & Security
+| Package | Version | Description |
+|---------|---------|-------------|
+| [Microsoft.AspNetCore.Authentication.JwtBearer](https://www.nuget.org/packages/Microsoft.AspNetCore.Authentication.JwtBearer) | 9.0.0 | JWT Bearer authentication for ASP.NET Core |
+
+### Mapping
+| Package | Version | Description |
+|---------|---------|-------------|
+| [AutoMapper](https://www.nuget.org/packages/AutoMapper) | 15.1.3 | Object-object mapper |
+| [AutoMapper.Extensions.Microsoft.DependencyInjection](https://www.nuget.org/packages/AutoMapper.Extensions.Microsoft.DependencyInjection) | 11.0.0 | AutoMapper DI integration |
+
+### API & Logging
+| Package | Version | Description |
+|---------|---------|-------------|
+| [Microsoft.AspNetCore.OpenApi](https://www.nuget.org/packages/Microsoft.AspNetCore.OpenApi) | 9.0.14 | OpenAPI support for ASP.NET Core |
+| [Microsoft.Extensions.Logging.Abstractions](https://www.nuget.org/packages/Microsoft.Extensions.Logging.Abstractions) | 10.0.6 | Logging abstractions |
 ## 🔧 Installation & Setup
 
 ### 1. Clone the repository
