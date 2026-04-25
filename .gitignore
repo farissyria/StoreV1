@@ -1,0 +1,22 @@
+# Visual Studio
+.vs/
+.vscode/
+*.user
+*.suo
+*.userprefs
+
+# Build results
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+
+# .NET Core
+project.lock.json
+*.dbmdl
+
+# Other
+*.log
+*.cache
